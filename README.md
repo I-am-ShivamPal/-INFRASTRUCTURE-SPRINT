@@ -1,2 +1,2 @@
-#  INFRASTRUCTURE SPRINT
+# Smart DevOps Automation System
 
