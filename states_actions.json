@@ -1,0 +1,7 @@
+{
+  "actions": {
+    "connection_failed": ["restart_deployment", "rollback"],
+    "slow_response": ["rollback", "restart_deployment"],
+    "healthy": ["monitor"]
+  }
+}

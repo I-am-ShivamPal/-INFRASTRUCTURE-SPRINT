@@ -1,0 +1,18 @@
+{
+  "dev": {
+    "type": "local",
+    "host": "localhost",
+    "port": 8501,
+    "deploy_cmd": "python app.py"
+  },
+  "staging": {
+    "type": "docker",
+    "image": "shivam/sampleapp:staging",
+    "port": 8501
+  },
+  "cloud": {
+    "type": "render",
+    "service_name": "sampleapp",
+    "region": "free"
+  }
+}
